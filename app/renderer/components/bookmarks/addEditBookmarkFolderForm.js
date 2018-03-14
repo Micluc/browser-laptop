@@ -162,6 +162,7 @@ class AddEditBookmarkFolderForm extends React.Component {
                 )}
                 data-test-id='bookmarkNameInput'
                 spellCheck='false'
+                maxLength='200'
                 onKeyDown={this.onKeyDown}
                 onChange={this.onNameChange}
                 defaultValue={this.state.title}
