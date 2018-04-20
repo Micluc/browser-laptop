@@ -14,6 +14,7 @@ var arch = 'x64'
 const isLinux = process.platform === 'linux'
 
 var env = {
+  NODE_ENV: 'production',
   CHANNEL: process.env.CHANNEL,
   REF: process.env.REF || null,
   REFERRAL_API_KEY: process.env.REFERRAL_API_KEY
